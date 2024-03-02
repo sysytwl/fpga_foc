@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="fpga_top" Register="27" Alu="23" Lut="2">
+    <SubModule name="your_instance_name"/>
+    <SubModule name="u_as5600_read" Register="60" Lut="127"/>
+    <SubModule name="u_adc_ad7928" Register="76" Lut="42"/>
+    <SubModule name="u_foc_top" Register="112" Alu="127" Lut="42" MULTALU27X18="1">
+        <SubModule name="u_clark_tr" Register="132" Alu="141" Lut="1"/>
+        <SubModule name="u_park_tr" Register="2" MULTALU27X18="4">
+            <SubModule name="u_sincos" Register="89" Lut="114" Bsram="1"/>
+        </SubModule>
+        <SubModule name="u_id_pi" Register="180" Alu="82" Lut="184" MULT27X36="2"/>
+        <SubModule name="u_iq_pi" Register="180" Alu="82" Lut="169" MULT27X36="2"/>
+        <SubModule name="u_cartesian2polar" Register="192" Alu="74" Lut="282" MULTALU27X18="1" Bsram="5"/>
+        <SubModule name="u_svpwm" Register="186" Alu="100" Lut="171" MULTALU27X18="1" Bsram="1"/>
+        <SubModule name="u_adc_sn_ctrl" Register="19" Lut="34"/>
+    </SubModule>
+    <SubModule name="u_uart_monitor" Register="110" Lut="251"/>
+</Module>

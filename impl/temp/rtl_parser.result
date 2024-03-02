@@ -1,0 +1,120 @@
+[
+ {
+  "InstFile" : "C:/Users/19577/Desktop/fpga_foc/src/fpga_top.v",
+  "InstLine" : 11,
+  "InstName" : "fpga_top",
+  "ModuleFile" : "C:/Users/19577/Desktop/fpga_foc/src/fpga_top.v",
+  "ModuleLine" : 11,
+  "ModuleName" : "fpga_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/19577/Desktop/fpga_foc/src/fpga_top.v",
+    "InstLine" : 56,
+    "InstName" : "your_instance_name",
+    "ModuleFile" : "C:/Users/19577/Desktop/fpga_foc/src/gowin_pll/gowin_pll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_PLL"
+   },
+   {
+    "InstFile" : "C:/Users/19577/Desktop/fpga_foc/src/fpga_top.v",
+    "InstLine" : 76,
+    "InstName" : "u_as5600_read",
+    "ModuleFile" : "C:/Users/19577/Desktop/fpga_foc/src/i2c_register_read.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "i2c_register_read"
+   },
+   {
+    "InstFile" : "C:/Users/19577/Desktop/fpga_foc/src/fpga_top.v",
+    "InstLine" : 95,
+    "InstName" : "u_adc_ad7928",
+    "ModuleFile" : "C:/Users/19577/Desktop/fpga_foc/src/adc_ad7928.v",
+    "ModuleLine" : 11,
+    "ModuleName" : "adc_ad7928"
+   },
+   {
+    "InstFile" : "C:/Users/19577/Desktop/fpga_foc/src/fpga_top.v",
+    "InstLine" : 123,
+    "InstName" : "u_foc_top",
+    "ModuleFile" : "C:/Users/19577/Desktop/fpga_foc/src/foc/foc_top.v",
+    "ModuleLine" : 11,
+    "ModuleName" : "foc_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/19577/Desktop/fpga_foc/src/foc/foc_top.v",
+      "InstLine" : 119,
+      "InstName" : "u_clark_tr",
+      "ModuleFile" : "C:/Users/19577/Desktop/fpga_foc/src/foc/clark_tr.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "clark_tr"
+     },
+     {
+      "InstFile" : "C:/Users/19577/Desktop/fpga_foc/src/foc/foc_top.v",
+      "InstLine" : 140,
+      "InstName" : "u_park_tr",
+      "ModuleFile" : "C:/Users/19577/Desktop/fpga_foc/src/foc/park_tr.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "park_tr",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/19577/Desktop/fpga_foc/src/foc/park_tr.v",
+        "InstLine" : 27,
+        "InstName" : "u_sincos",
+        "ModuleFile" : "C:/Users/19577/Desktop/fpga_foc/src/foc/sincos.v",
+        "ModuleLine" : 11,
+        "ModuleName" : "sincos"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Users/19577/Desktop/fpga_foc/src/foc/foc_top.v",
+      "InstLine" : 160,
+      "InstName" : "u_id_pi",
+      "ModuleFile" : "C:/Users/19577/Desktop/fpga_foc/src/foc/pi_controller.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "pi_controller"
+     },
+     {
+      "InstFile" : "C:/Users/19577/Desktop/fpga_foc/src/foc/foc_top.v",
+      "InstLine" : 180,
+      "InstName" : "u_iq_pi",
+      "ModuleFile" : "C:/Users/19577/Desktop/fpga_foc/src/foc/pi_controller.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "pi_controller"
+     },
+     {
+      "InstFile" : "C:/Users/19577/Desktop/fpga_foc/src/foc/foc_top.v",
+      "InstLine" : 200,
+      "InstName" : "u_cartesian2polar",
+      "ModuleFile" : "C:/Users/19577/Desktop/fpga_foc/src/foc/cartesian2polar.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "cartesian2polar"
+     },
+     {
+      "InstFile" : "C:/Users/19577/Desktop/fpga_foc/src/foc/foc_top.v",
+      "InstLine" : 246,
+      "InstName" : "u_svpwm",
+      "ModuleFile" : "C:/Users/19577/Desktop/fpga_foc/src/foc/svpwm.v",
+      "ModuleLine" : 13,
+      "ModuleName" : "svpwm"
+     },
+     {
+      "InstFile" : "C:/Users/19577/Desktop/fpga_foc/src/foc/foc_top.v",
+      "InstLine" : 266,
+      "InstName" : "u_adc_sn_ctrl",
+      "ModuleFile" : "C:/Users/19577/Desktop/fpga_foc/src/foc/hold_detect.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "hold_detect"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/19577/Desktop/fpga_foc/src/fpga_top.v",
+    "InstLine" : 173,
+    "InstName" : "u_uart_monitor",
+    "ModuleFile" : "C:/Users/19577/Desktop/fpga_foc/src/uart_monitor.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "uart_monitor"
+   }
+  ]
+ }
+]

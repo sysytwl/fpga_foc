@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW5A-25A" package="MBGA121N" speed="1" partNumber="GW5A-LV25MG121NES"/>
+    <FileList>
+        <File path="C:\Users\19577\Desktop\fpga_foc\src\adc_ad7928.v" type="verilog"/>
+        <File path="C:\Users\19577\Desktop\fpga_foc\src\foc\cartesian2polar.v" type="verilog"/>
+        <File path="C:\Users\19577\Desktop\fpga_foc\src\foc\clark_tr.v" type="verilog"/>
+        <File path="C:\Users\19577\Desktop\fpga_foc\src\foc\foc_top.v" type="verilog"/>
+        <File path="C:\Users\19577\Desktop\fpga_foc\src\foc\hold_detect.v" type="verilog"/>
+        <File path="C:\Users\19577\Desktop\fpga_foc\src\foc\park_tr.v" type="verilog"/>
+        <File path="C:\Users\19577\Desktop\fpga_foc\src\foc\pi_controller.v" type="verilog"/>
+        <File path="C:\Users\19577\Desktop\fpga_foc\src\foc\sincos.v" type="verilog"/>
+        <File path="C:\Users\19577\Desktop\fpga_foc\src\foc\svpwm.v" type="verilog"/>
+        <File path="C:\Users\19577\Desktop\fpga_foc\src\fpga_top.v" type="verilog"/>
+        <File path="C:\Users\19577\Desktop\fpga_foc\src\gowin_pll\gowin_pll.v" type="verilog"/>
+        <File path="C:\Users\19577\Desktop\fpga_foc\src\i2c_register_read.v" type="verilog"/>
+        <File path="C:\Users\19577\Desktop\fpga_foc\src\uart_monitor.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\19577\Desktop\fpga_foc\impl\gwsynthesis\fpga_foc.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="top_module" value="fpga_top"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

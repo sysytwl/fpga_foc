@@ -1,0 +1,48 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\19577\Desktop\fpga_foc\src\adc_ad7928.v'
+Analyzing Verilog file 'C:\Users\19577\Desktop\fpga_foc\src\foc\cartesian2polar.v'
+Analyzing Verilog file 'C:\Users\19577\Desktop\fpga_foc\src\foc\clark_tr.v'
+Analyzing Verilog file 'C:\Users\19577\Desktop\fpga_foc\src\foc\foc_top.v'
+Analyzing Verilog file 'C:\Users\19577\Desktop\fpga_foc\src\foc\hold_detect.v'
+Analyzing Verilog file 'C:\Users\19577\Desktop\fpga_foc\src\foc\park_tr.v'
+Analyzing Verilog file 'C:\Users\19577\Desktop\fpga_foc\src\foc\pi_controller.v'
+Analyzing Verilog file 'C:\Users\19577\Desktop\fpga_foc\src\foc\sincos.v'
+Analyzing Verilog file 'C:\Users\19577\Desktop\fpga_foc\src\foc\svpwm.v'
+Analyzing Verilog file 'C:\Users\19577\Desktop\fpga_foc\src\fpga_top.v'
+Analyzing Verilog file 'C:\Users\19577\Desktop\fpga_foc\src\gowin_pll\gowin_pll.v'
+Analyzing Verilog file 'C:\Users\19577\Desktop\fpga_foc\src\i2c_register_read.v'
+Analyzing Verilog file 'C:\Users\19577\Desktop\fpga_foc\src\uart_monitor.v'
+Compiling module 'fpga_top'("C:\Users\19577\Desktop\fpga_foc\src\fpga_top.v":11)
+Compiling module 'Gowin_PLL'("C:\Users\19577\Desktop\fpga_foc\src\gowin_pll\gowin_pll.v":10)
+Compiling module 'i2c_register_read(CLK_DIV=16'd10)'("C:\Users\19577\Desktop\fpga_foc\src\i2c_register_read.v":9)
+Compiling module 'adc_ad7928(CH_CNT=3'd2,CH0=3'd1,CH1=3'd2,CH2=3'd3)'("C:\Users\19577\Desktop\fpga_foc\src\adc_ad7928.v":11)
+Compiling module 'foc_top(ANGLE_INV=1'b0)'("C:\Users\19577\Desktop\fpga_foc\src\foc\foc_top.v":11)
+Compiling module 'clark_tr'("C:\Users\19577\Desktop\fpga_foc\src\foc\clark_tr.v":9)
+Compiling module 'park_tr'("C:\Users\19577\Desktop\fpga_foc\src\foc\park_tr.v":9)
+Compiling module 'sincos'("C:\Users\19577\Desktop\fpga_foc\src\foc\sincos.v":11)
+Compiling module 'pi_controller'("C:\Users\19577\Desktop\fpga_foc\src\foc\pi_controller.v":9)
+Compiling module 'cartesian2polar'("C:\Users\19577\Desktop\fpga_foc\src\foc\cartesian2polar.v":9)
+Compiling module 'svpwm'("C:\Users\19577\Desktop\fpga_foc\src\foc\svpwm.v":13)
+Compiling module 'hold_detect(SAMPLE_DELAY=16'b0000000001111000)'("C:\Users\19577\Desktop\fpga_foc\src\foc\hold_detect.v":9)
+Compiling module 'uart_monitor(CLK_DIV=16'd320)'("C:\Users\19577\Desktop\fpga_foc\src\uart_monitor.v":9)
+NOTE  (EX0101) : Current top module is "fpga_top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\19577\Desktop\fpga_foc\impl\gwsynthesis\fpga_foc.vg" completed
+[100%] Generate report file "C:\Users\19577\Desktop\fpga_foc\impl\gwsynthesis\fpga_foc_syn.rpt.html" completed
+GowinSynthesis finish

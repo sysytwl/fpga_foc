@@ -1,0 +1,14 @@
+-d C:\Users\19577\Desktop\fpga_foc\impl\gwsynthesis\fpga_foc.vg
+-p GW5A-25A-MBGA121N-1
+-pn GW5A-LV25MG121NES
+-cst C:\Users\19577\Desktop\fpga_foc\src\fpga_foc.cst
+-cfg C:\Users\19577\Desktop\fpga_foc\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23
+-global_freq 100.000
+-enable_dsrm 0
